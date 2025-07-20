@@ -1,10 +1,14 @@
 #nav{
-    margin: 20px;
-    padding: 8px;
+    margin-left: 10px;
+    margin-right: 18px;
+    padding-left: 8px;
+    padding-right: 18px;
 }
 #header{
-    margin: 20px;
-    padding: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
     display: flex;
     justify-content: space-between;
 }
@@ -29,6 +33,7 @@
     height: 4rem;
     width: 7.3rem;
     margin-top: 25px;
+    padding-right: 18px;
 }
 #logo{
     display: flex;
@@ -65,14 +70,33 @@
     font-size: xx-large;
 }
 #part2 > p{
-    font-size: large;
+    font-size: x-large;
     height: 200px;
     width: 550px;
+    color: rgb(102, 102, 102);
 }
+td > button{
+    height: 5rem;
+    width: 9rem;
+}   
+td  {
+    padding-right: 4rem; 
+}
+.btn1{
+    background-color: #6C63FF;
+    border: 2px solid #6C63FF;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 1rem;
 
-#table > td > button{
-    height: 3rem;
-    width: 5rem;
+}
+.btn2{
+    background-color: rgb(69, 67, 67);
+    border: 2px solid rgb(69, 67, 67);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+     
 }
 @media (max-width: 1150px) {
     #contact > button {
@@ -86,8 +110,9 @@
         width: 6rem;
         margin-top: 18px;
         margin-right: 1rem;
-        padding-right: 2rem !important;
+        padding-right: 2rem;
     }
+    
 }
 @media (max-width: 400px) {
     #contact > button {
@@ -101,12 +126,21 @@
         width: 2.7rem;
         margin-top: 20px;
         margin-right: 1.5rem;
-        padding-right: 2rem !important;
+        padding-right: 2rem ;
     }
   #logo{
     margin-left: 8px  !important;
     padding-left: 4px !important;
   }
+  #image>img{
+    height: 300px;
+    width: 300px;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    /* padding-left: 2rem;
+    margin-left: 2rem ; */
+  }
+
 }
 
 
