@@ -98,6 +98,142 @@ td  {
     border-radius: 1rem;
      
 }
+#card_section{
+    text-align: center;
+}
+.top_Card{
+    text-align: center;
+
+}
+.top_Card > p{
+    color: rgb(69, 67, 67);
+    text-align: center;
+}
+
+#below_cardSection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    margin-bottom: 2rem ;
+    padding-bottom: 2rem;
+    row-gap: 2rem;
+    
+}
+
+#card{
+    height: 200px;
+    width: 280px;
+    text-align: center;
+    margin-left: 12rem;
+    border-radius: 0.5rem;
+    padding-top: 1rem ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgb(227, 224, 224);
+    
+}
+
+   
+#card > span{
+    border-radius: 2rem;
+    background-color: rgb(227, 224, 224);
+    font-size: xx-large;
+}
+.card1 > span{
+    color: #6C63FF;
+}
+.card1{
+    background-color: #6C63FF;
+}
+.card2 > span{
+    color: rgb(197, 97, 121);
+}
+.card2{
+    background-color: rgb(197, 97, 121);;
+}
+.card3 > span{
+    color: #F4A623;
+}
+.card3{
+    background-color: #F4A623;
+}
+.card4 > span{
+    color: #1EB3B3;
+}
+.card4{
+    background-color: #1EB3B3;
+}
+.card5 > span{
+    color: #4CAF50;
+}
+.card5{
+    background-color: #4CAF50;
+}
+.card6 > span{
+    color: #5C6BC0;
+}
+.card6{
+    background-color: #5C6BC0;
+}
+
+.belowtestimonal > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.belowtestimonal > h4{
+    color: #5C6BC0;
+
+}
+#testimonal{
+    text-align: center;
+    margin-left: 12rem;
+}
+.testimonal_Cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid grey; */
+    /* justify-content: space-between; */
+}
+.testimonal_card1{
+    border: 2px solid silver;
+      height: 260px;
+    width: 320px;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow:
+  1px 1px silver,
+  -0.2em -0.2em 0.4em silver;
+
+}
+.testimonal_card2{
+    border: 2px solid silver;
+    height: 260px;
+    width: 320px;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow:
+  1px 1px silver,
+  -0.2em -0.2em 0.4em silver;
+
+}
+.testimonal_card3{
+    border: 2px solid silver;
+    height: 260px;
+    width: 320px;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow:
+  1px 1px silver,
+  -0.2em -0.2em 0.4em silver;
+
+}
+
+
 @media (max-width: 1150px) {
     #contact > button {
         /* Mobile styles */
