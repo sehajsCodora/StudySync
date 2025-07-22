@@ -279,7 +279,58 @@ form>button{
     font-size: medium;
     font: bolder;
 }
+#footer {
+  background-color: #f5f5f5;
+  padding: 30px;
+}
 
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 10px;
+  min-width: 150px;
+}
+
+.footer-column h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin: 5px 0;
+  color: #555;
+  cursor: pointer;
+}
+
+.footer-column p:hover {
+  color: #000;
+}
+
+.social-icons i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #0077b5; 
+}
+
+#midDistribution  :hover{
+    color: black;
+}
+.footer-column >h3{
+    font-size: xx-large;
+}
+h3 > img{
+    height: 32px;
+    width: 40px;
+}
 
 @media (max-width: 1150px) {
     #contact > button {
